@@ -1,0 +1,35 @@
+:root {
+    --container-grid-width: 315px;
+    --section-grid-width: 315px;
+}
+
+body {
+    background: #f8f8f8;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --section-grid-width: 590px;
+        --container-grid-width: 590px;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --section-grid-width: 844px;
+        --container-grid-width: 844px;
+    }
+}
+
+@media (min-width: 1280px) {
+    :root {
+        --section-grid-width: 1100px;
+    }
+}
+
+@media (min-width: 1440px) {
+    :root {
+        --section-grid-width: 1260px;
+    }
+}
